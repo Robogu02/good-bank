@@ -57,7 +57,8 @@ function logout() {
 
 function sendApiRequest(payload, callback) {
     console.log('Sending API request with payload:', payload);
-    fetch('http://localhost:3000/api', {
+    //fetch('http://localhost:3000/api', {
+    fetch('http://https://good-bank.onrender.com/api', {  
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
