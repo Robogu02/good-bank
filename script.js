@@ -47,6 +47,7 @@ function makePayment() {
 
     sendApiRequest(payload, () => {
         alert('Payment Successful!');
+        alert('Sorry, you’re not going to get BioCatch risk scores today:');
     });
 }
 
